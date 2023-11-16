@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+}
+
+header {
+  background: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.Contenido {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.nav {
+  float: right;
+  margin-top: 50px;
+  margin-right: 75px;
+  font-size: 25px;
+  display: flex;
+}
+
+img {
+  width: 150px;
+  margin-left: 150px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  margin: 10px;
+}
+
+.menu li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  font-family: "century gothic";
+  font-size: 23px;
+}
+
+.menu li a:hover {
+  padding: 5px 10px;
+  background: rgb(38, 231, 141);
+  color: black;
+  border-radius: 15px;
+}
+
+h1 {
+  border: 15px solid black;
+  border-radius: 20px;
+  border-style: double;
+  font-family: "century gothic";
+  font-size: 45px;
+}
+
+h2 {
+  border: 10px solid black;
+  border-radius: 20px;
+  border-style: double;
+  margin-left: 20px;
+  font-family: "century gothic";
+}
+
+h3 {
+  border: 10px solid black;
+  border-radius: 20px;
+  border-style: double;
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: "century gothic";
+}
+
+p {
+  border: 10px solid black;
+  border-radius: 20px;
+  border-style: double;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: "century gothic";
+}
+
+button {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: rgb(38, 231, 141);
+  font-family: "century gothic";
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgb(30, 148, 93);
+}
+
+#Title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background: rgb(38, 231, 141);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#Title h1 {
+  color: white;
+}
+
+#Title button {
+  font-size: 1.75em;
+}
+
+#Principios {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
+}
+
+#Principios .Contenido {
+  padding: 150px 12px;
+}
+
+#Principios .Text {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px;
+  padding: 50px;
+  background-size: 100% 150px;
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  background-color: rgba(50, 50, 50, 1);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#Principios h2 {
+  margin-top: 0;
+  font-size: 3.2em;
+  font-size: 4em;
+}
+
+#Principios h3 {
+  margin-top: 0;
+}
+
+#Principios p {
+  display: none;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#Productos {
+  background-color: rgb(38, 231, 141);
+  color: white;
+  text-align: center;
+}
+
+#Productos .Contenido {
+  padding: 150px 12px;
+}
+
+#Productos .Text {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px;
+  padding: 50px;
+  background-size: 100% 150px;
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  background-color: rgb(30, 148, 93);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#Productos h2 {
+  margin-top: 0;
+  font-size: 3.2em;
+  font-size: 4em;
+}
+
+#Productos h3 {
+  margin-top: 0;
+}
+
+#Productos p {
+  display: none;
+  display: block;
+  margin-bottom: 30px;
+}
+
+#limonada {
+  margin: auto;
+  width: 300px;
+  padding: 50px;
+}
+
+footer {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  display: flex;
+}
+
+footer p {
+  border: none;
+  padding-top: 75px;
+  font-size: 25px;
+  font-family: "century gothic";
+  color: rgb(38, 231, 141);
+}
+
+#Redes {
+  width: 110px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 90px;
+}
